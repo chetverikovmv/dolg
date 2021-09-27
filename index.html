@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Долг</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+	 <!--
+	<h1>Расчет долга</h1>
+
+	<form action="#" class="calculate-form">
+
+		<label for="start-balance">Текущиий баланс:</label>
+		<input id="start-balance"" name=" start-balance"" type="number" placeholder="Сколько должна Мария" required>
+		<br><br>
+
+		<label for="dialog">Текст беседы $$$:</label>
+		<textarea id="dialog" name="dialog" type="text" placeholder="Михаил Четвериков: 270 инэт" required></textarea>
+
+		<br><br>
+
+		<button class="button" type="submit">Расчет</button>
+
+	</form>
+
+	<div class="summary">
+		<p class="result">
+		</p>
+	</div>
+-->
+ <!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+	<div class="container">
+
+		 <!--<header class="page-header page-header-inside">
+            <div class="page-header__wrapper page-header-inside__wrapper">
+
+				<h1 class="h1-site">$$$</h1>
+
+            </div>
+        </header>-->
+       
+      
+        <main class="page-main page-main--form">
+          <!--  <section class="form-description">
+                <h1 class="form-description__title h1-site">Оставьте свой отзыв</h1>
+                <p class="form-description__text">
+                    Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
+                </p>
+            </section> -->
+
+            <form action="#" class="feedback calculate-form">
+
+                    <div class="feedback__emotions emotions">
+                        <h2 class="feedback__title h2-site">Текущий баланс:</h2>
+                        
+                            <div class="contacts__phone">
+                                <label for="start-balance"> Сколько должна Мария:</label> <br>
+                                <input id="start-balance" name="start-balance" type="number" placeholder="1234" required>
+                            </div>                                                    
+                    </div>
+    
+                <div class="feedback__emotions emotions">
+                    <h2 class="feedback__title h2-site">Текст беседы "$$$":</h2>
+                    <div class="emotions__text">
+                        <label class="visually-hidden" for="dialog">Текст беседы $$$</label>
+                        <textarea id="dialog" name="dialog" type="text" placeholder="Михаил Четвериков: 270 инэт" required></textarea>
+                    </div>
+                    <button class="button button-clear" type="submit">Очистить</button>
+                </div>
+
+                <div class="feedback__button">
+                    <button class="feedback-btn button" type="submit">Расчет</button>
+                    
+                </div>
+            </form>
+
+			
+	<div class="display-none summary">
+		<p class="result">
+		</p>
+	</div>
+
+
+        </main>
+
+        <footer class="page-footer">
+            <div class="page-footer__wrapper">
+                <p class="form-description__text">
+                    Разработано Михаилом Четвериковым
+                </p>
+                               
+            </div>
+        </footer>
+    </div>
+
+    <div class="container">
+        <section class="modal modal-invalid">
+            <h2 class="modal-invalid__title h2-site">что-то пошло не так! </h2>
+            <p class="modal-invalid__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+            <button class="modal-invalid__button button">Ок</button>
+        </section>      
+
+    </div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
